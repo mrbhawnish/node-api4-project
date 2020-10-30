@@ -1,0 +1,31 @@
+{
+  "name": "node-api4-project",
+  "version": "1.0.0",
+  "description": "In this challenge, you will **deploy** an API of your choosing to `heroku`.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "postinstall": "cd client && npm start && npm run build",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbhawnish/node-api4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrbhawnish/node-api4-project/issues"
+  },
+  "homepage": "https://github.com/mrbhawnish/node-api4-project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gitignore": "^0.6.0",
+    "helmet": "^4.1.1"
+  }
+}
